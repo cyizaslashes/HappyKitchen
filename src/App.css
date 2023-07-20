@@ -1,0 +1,96 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgb(255, 255, 254);
+  box-sizing: border-box;
+
+}
+
+
+body{
+  background-image: url("../public/recipeb.jpg");
+  
+  background-color:no repeat;
+}
+.container {
+  background-color: #24270098;
+  max-width: 1000px;
+  min-height: 100vh;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+h1, h2, h3, p {
+  text-align: center;
+}
+
+
+
+form {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+input {
+  border: 1px solid #f7f7f7;
+  padding: 10px;
+  font-size: 16px;
+
+}
+input:focus {
+  outline: none;
+}
+
+.form-control {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 400px;
+}
+
+.btn {
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+  cursor: pointer;
+  background-color: rgb(245, 133, 5);
+
+}
+
+.recipes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  color:aliceblue;
+}
+
+.card {
+  width: 200px;
+  background-color: rgba(165, 165, 165, 0.473);
+  margin: 10px;
+  border-radius: 5px;
+  padding-bottom: 10px;
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.card-body {
+  padding: 10px;
+  text-align: center;
+}
+
+.category {
+  color: #ffffff;
+}
+
+a {
+  background-color: #ff7b00;
+  color: #f4f4fa;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
